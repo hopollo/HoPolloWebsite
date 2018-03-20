@@ -1,0 +1,149 @@
+@import url(' https://fonts.googleapis.com/css?family=Gruppo |Happy+Monkey');
+
+html, body {
+  overflow: hidden;
+  cursor: default;
+  margin: 0;
+		padding: 0;
+  width: 100% !important;
+		height: 100% !important;
+  font-family: 'Happy Monkey', sans-serif;
+  background-color: rgb(25, 23, 28);
+}
+
+body {
+  position: relative;
+  background: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+
+a, a:visited {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Navbar */
+/* TODO: Fix "Les hopiniacs" going to 2 lines instead of 1 */
+
+.navbar {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  /*background-image: url('../img/menu.png');*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  position: absolute;
+  background: black;
+		width: 110px;
+  left: 4.7em;
+  top: -0.3em;
+  padding: 0;
+  z-index: 5;
+}
+
+.item {
+  display: none;
+		width: 100%;
+  padding-left: 10px;
+  font-weight: bold;
+		border-bottom: 1px white solid;
+}
+
+.item:hover, .sousitem:hover	{
+		background: #2f2b2b;
+}
+
+.item:first-child {
+		border-top: 1px red solid;
+}
+
+.item:last-child {
+		border-bottom: 1px red solid;
+		background: black;
+}
+
+.item a {
+		display: block;
+}
+
+.sousmenu-parent:after {
+  content: " ➤ ";
+}
+
+.item::first-letter, .sousitem::first-letter {
+  color: red;
+}
+
+
+/* Titles */
+.title-container {
+  position: absolute;
+  top:45%; /* 50% looks not centered */
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.title {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 6.5em;
+  margin: 0;
+ }
+
+.subtitle {
+	font-style: italic;
+  font-size: 1.5em;
+}
+
+/* Footer */
+
+.footer {
+ position: fixed;
+ width: 100%;
+ bottom: 0 !important;
+ text-align: center;
+}
+
+.credits a {
+	text-decoration: none;
+	color: red;
+}
+
+.credits a:hover {
+	color: orange;
+}
+
+/* Media queries */
