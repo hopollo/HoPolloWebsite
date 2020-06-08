@@ -11,7 +11,7 @@ body {
   position: relative;
   font-family: 'Happy Monkey', sans-serif;
   background-color: #19171c;
-  background-image: url("https://raw.githubusercontent.com/hopollo/HoPolloWebsite/master/img/background.jpg");
+  background-image: url("https://raw.githubusercontent.com/hopollo/HoPolloWebsite/css/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
