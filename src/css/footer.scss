@@ -1,0 +1,16 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 10px !important;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, .4) 0px 1px 2px;
+
+  .credits a {
+    text-decoration: none;
+    color: red;
+
+    &:hover {
+      color: orange;
+    }
+  }
+}

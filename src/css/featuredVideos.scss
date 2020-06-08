@@ -1,0 +1,28 @@
+.featured-videos-container {
+  width: 70vw;
+  background: rgba(0,0,0, 0.5);
+  border-radius: 15px;
+  position: absolute;
+  padding: 10px;
+  bottom: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  iframe {
+    margin: 0;
+    padding:0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .featured-videos-container {
+    width: 95%;
+  }
+}

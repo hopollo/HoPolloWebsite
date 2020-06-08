@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  position: relative;
+  font-family: 'Happy Monkey', sans-serif;
+  background-color: #19171c;
+  background-image: url("https://raw.githubusercontent.com/hopollo/HoPolloWebsite/master/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: white;
+}
+
+span {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=app.css.map */
