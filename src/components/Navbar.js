@@ -35,17 +35,6 @@ function Navbar() {
             </a>
           </attr>
 
-          <attr title="Voir ma chaine Mixer">
-            <a
-              className="mixer-follow-button"
-              href="https://www.mixer.com/hopollo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <li className="item">Mixer</li>
-            </a>
-          </attr>
-
           <attr title="Voir ma page Facebook">
             <a
               className="facebook-follow-button"

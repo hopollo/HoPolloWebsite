@@ -15,7 +15,7 @@ function FeaturedVideos() {
       </div>
       <div className="twitch-container">
         <iframe
-          src="https://clips.twitch.tv/embed?clip=CalmFrigidGaragePraiseIt&parent=hopollo.netlify.com&autoplay=false&muted=true"
+          src="https://clips.twitch.tv/embed?clip=BreakableColdRaisinDerp&parent=hopollo.netlify.app&autoplay=false&muted=true"
           title="TwitchClip1"
           frameBorder="0"
           allowFullscreen="true"
@@ -24,7 +24,7 @@ function FeaturedVideos() {
       </div>
       <div className="mixer-container">
         <iframe
-          src="https://clips.twitch.tv/embed?clip=BlindingRelievedCodTwitchRaid&parent=hopollo.netlify.com&autoplay=false&muted=true"
+          src="https://clips.twitch.tv/embed?clip=AltruisticPlausibleSashimiTwitchRaid&parent=hopollo.netlify.app&autoplay=false&muted=true"
           title="TwitchClip2"
           frameBorder="0"
           allowFullscreen="true"
